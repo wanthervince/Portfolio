@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(./normalize.css);
+@font-face {
+  font-family: "AmaticSC";
+  src: url("./assets/fonts/AmaticSC.ttf");
+}
+@font-face {
+  font-family: "Truculenta";
+  src: url("./assets/fonts/Truculenta.ttf");
+}
+body {
+  background-color: #21222f;
+  font-family: Truculenta;
+}

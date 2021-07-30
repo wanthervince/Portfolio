@@ -1,0 +1,16 @@
+<nav class="nav">
+  <img
+    class="nav__img"
+    src="../../../../assets/img/logo.png"
+    alt="logo Wanther Vince"
+  />
+  <div class="burger" [ngClass]="{ active: active }" (click)="burger()">
+    <p class="burger__item"></p>
+  </div>
+  <ul class="nav__links" [ngClass]="{ active_nav: active }">
+    <li class="nav__links-link"><a class="link" href="/">Home</a></li>
+    <li class="nav__links-link"><a class="link" href="">About me</a></li>
+    <li class="nav__links-link"><a class="link" href="">Proyect</a></li>
+    <li class="nav__links-link"><a class="link" href="">More</a></li>
+  </ul>
+</nav>
