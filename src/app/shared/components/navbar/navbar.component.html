@@ -1,16 +1,46 @@
-<nav class="nav">
-  <img
-    class="nav__img"
-    src="../../../../assets/img/logo.png"
-    alt="logo Wanther Vince"
-  />
-  <div class="burger" [ngClass]="{ active: active }" (click)="burger()">
-    <p class="burger__item"></p>
-  </div>
-  <ul class="nav__links" [ngClass]="{ active_nav: active }">
-    <li class="nav__links-link"><a class="link" href="/">Home</a></li>
-    <li class="nav__links-link"><a class="link" href="">About me</a></li>
-    <li class="nav__links-link"><a class="link" href="">Proyect</a></li>
-    <li class="nav__links-link"><a class="link" href="">More</a></li>
-  </ul>
-</nav>
+<div class="conten-nav">
+  <nav class="nav">
+    <a class="link" [routerLink]="['/']">
+      <img
+        class="nav__img"
+        src="../../../../assets/img/logo_265x265.png"
+        alt="logo Wanther Vince"
+      />
+    </a>
+    <div class="burger" [ngClass]="{ active: active }" (click)="burger()">
+      <p class="burger__item"></p>
+    </div>
+    <ul class="nav__links" [ngClass]="{ active_nav: active }">
+      <li class="nav__links-link">
+        <a
+          class="link"
+          [routerLink]="['/']"
+          routerLinkActive="active_links"
+          [routerLinkActiveOptions]="{ exact: true }"
+          >Home</a
+        >
+      </li>
+      <li class="nav__links-link">
+        <a
+          class="link"
+          [routerLink]="['/about-me']"
+          routerLinkActive="active_links"
+          >About me</a
+        >
+      </li>
+      <li class="nav__links-link">
+        <a
+          class="link"
+          [routerLink]="['/proyect']"
+          routerLinkActive="active_links"
+          >Proyect</a
+        >
+      </li>
+      <li class="nav__links-link">
+        <a class="link" [routerLink]="['/more']" routerLinkActive="active_links"
+          >More</a
+        >
+      </li>
+    </ul>
+  </nav>
+</div>

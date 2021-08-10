@@ -11,4 +11,6 @@
 body {
   background-color: #21222f;
   font-family: Truculenta;
+
+  position: relative;
 }

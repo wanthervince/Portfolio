@@ -1,9 +1,10 @@
 <div class="conten">
+  <div [ngClass]="{ active: tactive }" class="transition"></div>
   <div class="loader" *ngIf="firstOpen; else app">
     <div class="loader__conten">
       <img
         class="loader__conten-logo"
-        src="../assets/img/logo.png"
+        src="../assets/img/logo_final.png"
         alt="Logo de wanthervince"
       />
       <p class="loader__conten-text">WANTHER VINCE</p>
@@ -18,5 +19,4 @@
       <router-outlet></router-outlet>
     </div>
   </ng-template>
-  <div [ngClass]="{ active: tactive }" class="transition"></div>
 </div>
