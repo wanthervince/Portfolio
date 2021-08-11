@@ -1,0 +1,30 @@
+.footer {
+  color: aliceblue;
+  font-size: small;
+  text-align: center;
+  position: fixed;
+  font-size: 0.7rem;
+  bottom: 0;
+  line-height: 0;
+  width: 100%;
+  background-color: #21222f;
+}
+.colorOne {
+  color: #09cef9;
+}
+@media (min-width: 600px) {
+  .footer {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 1000px) {
+  .footer {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .footer {
+    font-size: 0.6rem;
+  }
+}

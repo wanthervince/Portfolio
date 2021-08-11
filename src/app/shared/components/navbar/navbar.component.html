@@ -11,36 +11,7 @@
       <p class="burger__item"></p>
     </div>
     <ul class="nav__links" [ngClass]="{ active_nav: active }">
-      <li class="nav__links-link">
-        <a
-          class="link"
-          [routerLink]="['/']"
-          routerLinkActive="active_links"
-          [routerLinkActiveOptions]="{ exact: true }"
-          >Home</a
-        >
-      </li>
-      <li class="nav__links-link">
-        <a
-          class="link"
-          [routerLink]="['/about-me']"
-          routerLinkActive="active_links"
-          >About me</a
-        >
-      </li>
-      <li class="nav__links-link">
-        <a
-          class="link"
-          [routerLink]="['/proyect']"
-          routerLinkActive="active_links"
-          >Proyect</a
-        >
-      </li>
-      <li class="nav__links-link">
-        <a class="link" [routerLink]="['/more']" routerLinkActive="active_links"
-          >More</a
-        >
-      </li>
+      <app-links></app-links>
     </ul>
   </nav>
 </div>

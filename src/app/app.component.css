@@ -88,3 +88,12 @@
     font-size: 5rem;
   }
 }
+
+*::-webkit-scrollbar {
+  width: 8px;
+  background-color: #282935;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #60c3e1;
+  border-radius: 20px;
+}
