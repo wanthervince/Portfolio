@@ -101,7 +101,9 @@
 }
 @media (min-width: 1000px) {
   .welcom_section {
-    width: 32%;
+    margin-top: 2rem;
+    width: 59%;
+    max-width: 35rem;
   }
   .textOne {
     line-height: 0;

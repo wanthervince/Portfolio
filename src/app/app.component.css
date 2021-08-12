@@ -53,12 +53,13 @@
 .transition {
   width: 200%;
   height: 100vh;
-  background-image: linear-gradient(to left top, #60c3e1, #7760a6 70%);
+  background-image: linear-gradient(to right, #8728ff, #09cef9 120%);
   clip-path: polygon(100% 0, 20% 0, 0 100%, 80% 100%);
   position: absolute;
   right: -200%;
   top: 0;
   transition: none;
+  z-index: 1;
 }
 .active {
   transition: 5s;

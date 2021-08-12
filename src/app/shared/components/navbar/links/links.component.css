@@ -31,20 +31,13 @@
   }
 }
 @media (min-width: 1000px) {
-  .nav__links {
-    position: relative;
-    flex-direction: row;
-    height: auto;
-    left: 0;
-    padding: 0;
-    width: 100%;
-    align-items: center;
-    backdrop-filter: none;
-    box-shadow: none;
-    justify-content: space-evenly;
-  }
   .nav__links-link .link {
     font-size: 3rem;
     line-height: 0;
+  }
+  .nav__links-link {
+    display: inline-block;
+    margin: 0 1.3rem;
+    justify-content: end;
   }
 }

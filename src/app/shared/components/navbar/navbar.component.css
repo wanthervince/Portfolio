@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   position: fixed;
+  margin-top: -2px;
 }
 .nav {
   margin-top: 0.5rem;
@@ -113,9 +114,19 @@
     width: 80%;
     max-width: 150rem;
   }
+  .nav__links {
+    position: relative;
+    height: auto;
+    right: 0;
+    text-align: end;
+    display: inline-block;
+    width: 100%;
+    box-shadow: none;
+  }
   .nav__img {
     width: 120px;
   }
+
   .burger {
     display: none;
   }
