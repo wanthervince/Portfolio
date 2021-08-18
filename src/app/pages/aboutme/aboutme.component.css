@@ -1,0 +1,61 @@
+.about-me {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+.conten_history {
+  margin-top: 5.3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.history {
+  margin: 3px 0;
+  font-size: 1.4rem;
+  text-align: center;
+  width: 80%;
+  color: aliceblue;
+}
+.colorOne {
+  color: #09cef9;
+}
+.colorTwo {
+  color: #8728ff;
+}
+.conten_img {
+  width: 80%;
+  height: 18rem;
+  display: flex;
+  align-items: center;
+}
+.img {
+  width: 100%;
+}
+.conten_skills {
+  margin-top: 4rem;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  font-size: 4rem;
+  color: #09cef9;
+  line-height: 0;
+}
+.skills {
+  width: 80%;
+}
+.subTitle {
+  text-align: left;
+  font-size: x-large;
+  color: aliceblue;
+  text-decoration: underline;
+}
+.contenTec {
+  width: 90%;
+  display: grid;
+}

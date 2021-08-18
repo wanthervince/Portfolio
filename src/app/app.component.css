@@ -32,14 +32,14 @@
   padding: 0 1%;
   margin: 25px;
   border-radius: 15px;
-  border: 2px solid #60c3e1;
+  border: 2px solid #09cef9;
   color: aliceblue;
   background: transparent;
   transition: 0.5s;
   cursor: pointer;
 }
 .loader__conten-btn:hover {
-  border: 2px solid #7760a6;
+  border: 2px solid #8728ff;
 }
 .app {
   width: 100%;
@@ -95,6 +95,6 @@
   background-color: #282935;
 }
 *::-webkit-scrollbar-thumb {
-  background-color: #60c3e1;
+  background-color: #09cef9;
   border-radius: 20px;
 }
