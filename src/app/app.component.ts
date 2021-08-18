@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'portafolio-web';
+  title = 'Portfolio';
   firstOpen!: boolean;
   tactive!: boolean;
 

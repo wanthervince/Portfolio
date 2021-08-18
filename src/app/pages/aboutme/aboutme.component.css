@@ -27,8 +27,6 @@
 .conten_img {
   width: 80%;
   height: 18rem;
-  display: flex;
-  align-items: center;
 }
 .img {
   width: 100%;
@@ -55,7 +53,8 @@
   color: aliceblue;
   text-decoration: underline;
 }
-.contenTec {
+.contenSkills {
   width: 90%;
   display: grid;
+  grid-template-columns: auto auto;
 }
