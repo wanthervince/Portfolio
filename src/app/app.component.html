@@ -1,23 +1,2 @@
-<div class="conten">
-  <div [ngClass]="{ active: tactive }" class="transition"></div>
-  <div class="loader" *ngIf="firstOpen; else app">
-    <div class="loader__conten">
-      <img
-        class="loader__conten-logo"
-        src="../assets/img/logo_final.png"
-        alt="Logo de wanthervince"
-      />
-      <p class="loader__conten-text">WANTHER VINCE</p>
-      <button class="loader__conten-btn" type="button" (click)="transition()">
-        GO
-      </button>
-    </div>
-  </div>
-  <ng-template #app>
-    <div class="app">
-      <app-navbar></app-navbar>
-      <router-outlet></router-outlet>
-      <app-footer></app-footer>
-    </div>
-  </ng-template>
-</div>
+<router-outlet></router-outlet>
+<!-- WANTHER-VINCE -->

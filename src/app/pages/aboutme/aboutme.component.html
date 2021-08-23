@@ -1,34 +1,37 @@
-<div class="about-me">
-  <section class="conten_history">
-    <p class="history">
+<app-navbar></app-navbar>
+<section class="conten_history">
+  <div class="history">
+    <p class="history_item">
       Hola!! soy <span class="colorOne">Wantherley Vince</span>, les cuento un
       poco de mi historia por lo pronto ando cursando una carrera tecnica en
       <span class="colorTwo">“Desarrollo de Sistemas e Informatica”</span>,
     </p>
-    <p class="history">
+    <p class="history_item">
       Empece con el desarrolo web con DreamWeaver, jaja esto ocurrio gracias a
       que me apasiona el diseño, lo tomo como un pasatiempo hermoso, luego
       empece a adentrarme un poco mas y fue ahi cuando me tope con algo genial,
       la
       <span class="colorOne">“PROGRAMACION”</span>.
     </p>
-    <p class="history">
+    <p class="history_item">
       Al conocer la Programacion comenzo mi camino, con el cual empece a
       investigar que era la programacion y ver que existian muchas ramas a las
       cual podia dirigirme y me llamo la atencion una en especifico,
     </p>
-    <p class="history">
+    <p class="history_item">
       el
       <span class="colorTwo">“DESARROLLO WEB”</span> de mano de eso estaba el
       diseño el cual me facina bastante, a la actualidad aun sigo aprendiendo y
       creciendo profesional-mente.
     </p>
-    <div class="conten_img">
-      <img class="img" src="../../../assets/img/about-me.svg" alt="" />
-    </div>
-  </section>
-  <section class="conten_skills">
-    <h2 class="title">My Skills</h2>
+  </div>
+  <div class="conten_img">
+    <img class="img" src="../../../assets/img/about-me.svg" alt="" />
+  </div>
+</section>
+<section class="conten_skills">
+  <h2 class="title">My Skills</h2>
+  <div class="conten">
     <div class="skills">
       <h3 class="subTitle">DESARROLLO WEB</h3>
       <div class="contenSkills">
@@ -44,8 +47,9 @@
         <app-itemskills [data]="'photoshop'"></app-itemskills>
       </div>
     </div>
-    <div class="conten_img">
+    <div class="conten_img imgSkills">
       <img class="img" src="../../../assets/img/skills.svg" alt="" />
     </div>
-  </section>
-</div>
+  </div>
+</section>
+<app-footer></app-footer>

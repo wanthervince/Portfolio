@@ -1,11 +1,13 @@
 <div class="conten-nav">
   <nav class="nav">
-    <a [routerLink]="['/']">
+    <a [routerLink]="['/']" class="logo">
       <img
         class="nav__img"
         src="../../../../assets/img/logo_265x265.png"
-        alt="logo Wanther Vince"
+        alt="logo Wanther Dev"
       />
+      <p>WANTHER</p>
+      <p>VINCE</p>
     </a>
     <div class="burger" [ngClass]="{ active: active }" (click)="burger()">
       <p class="burger__item"></p>

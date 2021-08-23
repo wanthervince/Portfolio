@@ -15,3 +15,19 @@
   margin-left: 10px;
   text-transform: uppercase;
 }
+@media (min-width: 600px) {
+  .itemSkill > img {
+    width: 2.5rem;
+  }
+  .itemSkill > p {
+    font-size: 1.7rem;
+  }
+}
+@media (min-width: 1100px) {
+  .itemSkill > img {
+    width: 3.5rem;
+  }
+  .itemSkill > p {
+    font-size: 2.5rem;
+  }
+}

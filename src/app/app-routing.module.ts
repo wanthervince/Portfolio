@@ -13,16 +13,6 @@ const routes: Routes = [
       import('./pages/aboutme/aboutme.module').then((m) => m.AboutmeModule),
   },
   {
-    path: 'proyect',
-    loadChildren: () =>
-      import('./pages/proyect/proyect.module').then((m) => m.ProyectModule),
-  },
-  {
-    path: 'more',
-    loadChildren: () =>
-      import('./pages/more/more.module').then((m) => m.MoreModule),
-  },
-  {
     path: '**',
     loadChildren: () =>
       import('./pages/notfound/notfound.module').then((m) => m.NotfoundModule),

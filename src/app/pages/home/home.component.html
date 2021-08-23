@@ -1,3 +1,4 @@
+<app-navbar></app-navbar>
 <div class="welcom">
   <section class="welcom_section">
     <h1 class="textOne">Hey!!</h1>
@@ -9,26 +10,74 @@
     <app-buttom [data]="'ABOUT ME'"></app-buttom>
   </section>
 </div>
-
 <div class="conten">
   <h2 class="title">Proyect</h2>
-  <div class="contenProyect"></div>
+  <div class="contenProyect">PROYECT NO FOUND!</div>
   <app-buttom [data]="'MORE PROYECT'"></app-buttom>
 </div>
-
 <div class="conten">
-  <h2 class="title">Contact</h2>
+  <h2 class="title contac">Contact</h2>
   <div class="contenContac">
-    <p class="textTree">
-      Hey!! Vamos a trabajar juntos clikea abajo y enviame un correo.
-    </p>
-    <app-buttom [data]="'SEND MAIL'"></app-buttom>
-    <p class="textFour">
-      Tambien puedes dar un vistazo a mi redes Te espero, nos vemos
-      <span class="colorOne">PRONTO</span>
-    </p>
+    <div class="contacSection">
+      <p class="textTree">
+        Hey!! Vamos a trabajar juntos clikea abajo y enviame un correo.
+      </p>
+      <app-buttom [data]="'SEND MAIL'"></app-buttom>
+    </div>
+    <div class="contacSection">
+      <p class="textFour">
+        Tambien puedes dar un vistazo a mi redes Te espero, nos vemos
+        <br />
+        <span class="colorOne">PRONTO</span>
+      </p>
+      <div class="contenSocial">
+        <a
+          class="linkedin a"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/wanthervince/"
+          ><img
+            class="social"
+            src="../../../assets/img/social/ilinkedin.svg"
+            alt=""
+          />
+          LINKEDIN</a
+        >
+        <a
+          class="github a"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/wanthervince"
+          ><img
+            class="social"
+            src="../../../assets/img/social/igithub.svg"
+            alt=""
+          />
+          GIT HUB</a
+        ><a
+          class="twitter a"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://twitter.com/wanthervince"
+          ><img
+            class="social"
+            src="../../../assets/img/social/itwitter.svg"
+            alt=""
+          />
+          TWITTER</a
+        ><a
+          class="instagram a"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.instagram.com/wanthervince"
+          ><img
+            class="social"
+            src="../../../assets/img/social/iinstagram.svg"
+            alt=""
+          />INSTAGRAM</a
+        >
+      </div>
+    </div>
   </div>
-  <button class="btnDown">
-    <img src="../../../assets/img/bntDown.svg" alt="" />
-  </button>
 </div>
+<app-footer></app-footer>
