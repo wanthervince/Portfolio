@@ -1,0 +1,41 @@
+.a {
+  width: 75px;
+  height: 6rem;
+  line-height: 2;
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+  text-decoration: none;
+}
+.social {
+  width: 120px;
+  margin: -22px;
+}
+.linkedin,
+.instagram,
+.github,
+.twitter {
+  height: 77px;
+  width: 75px;
+  display: flex;
+  position: relative;
+  border-radius: 17px;
+  transition: background-color 1s;
+}
+.github {
+  border-radius: 40px;
+}
+.linkedin:hover {
+  background-color: #003688;
+}
+.github:hover {
+  background-color: #000000;
+}
+.twitter:hover {
+  background-color: #20adff;
+}
+.instagram:hover {
+  background-color: #e1306c;
+}

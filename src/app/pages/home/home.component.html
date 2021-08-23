@@ -31,51 +31,30 @@
         <span class="colorOne">PRONTO</span>
       </p>
       <div class="contenSocial">
-        <a
-          class="linkedin a"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.linkedin.com/in/wanthervince/"
-          ><img
-            class="social"
-            src="../../../assets/img/social/ilinkedin.svg"
-            alt=""
-          />
-          LINKEDIN</a
-        >
-        <a
-          class="github a"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/wanthervince"
-          ><img
-            class="social"
-            src="../../../assets/img/social/igithub.svg"
-            alt=""
-          />
-          GIT HUB</a
-        ><a
-          class="twitter a"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://twitter.com/wanthervince"
-          ><img
-            class="social"
-            src="../../../assets/img/social/itwitter.svg"
-            alt=""
-          />
-          TWITTER</a
-        ><a
-          class="instagram a"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.instagram.com/wanthervince"
-          ><img
-            class="social"
-            src="../../../assets/img/social/iinstagram.svg"
-            alt=""
-          />INSTAGRAM</a
-        >
+        <app-social
+          [class]="'linkedin'"
+          [url]="'https://www.linkedin.com/in/wanthervince/'"
+          [redSocial]="'LINKEDIN'"
+          [img]="'ilinkedin'"
+        ></app-social>
+        <app-social
+          [class]="'github'"
+          [url]="'https://github.com/wanthervince'"
+          [redSocial]="'GIT HUB'"
+          [img]="'igithub'"
+        ></app-social>
+        <app-social
+          [class]="'twitter'"
+          [url]="'https://twitter.com/wanthervince'"
+          [redSocial]="'TWITTER'"
+          [img]="'itwitter'"
+        ></app-social>
+        <app-social
+          [class]="'instagram'"
+          [url]="'https://www.instagram.com/wanthervince'"
+          [redSocial]="'INSTAGRAM'"
+          [img]="'iinstagram'"
+        ></app-social>
       </div>
     </div>
   </div>

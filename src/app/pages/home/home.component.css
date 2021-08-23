@@ -41,7 +41,6 @@
 .colorTwo {
   color: #8728ff;
 }
-
 .title {
   font-size: 4rem;
   color: #09cef9;
@@ -49,7 +48,6 @@
   line-height: 0;
   margin-top: 7.3rem;
 }
-
 .conten {
   width: 100%;
   height: 100vh;
@@ -93,28 +91,7 @@
   row-gap: 20px;
   margin-bottom: 3rem;
 }
-.social {
-  width: 120px;
-  margin: -22px;
-}
-.linkedin,
-.instagram,
-.github,
-.twitter {
-  width: 75px;
-  display: flex;
-  border-radius: 17px;
-}
-.a {
-  width: 75px;
-  height: 6rem;
-  line-height: 2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: aliceblue;
-  text-decoration: none;
-}
+
 @media (min-width: 600px) {
   .textOne {
     font-size: 7rem;
@@ -137,15 +114,11 @@
     margin-bottom: 1rem;
   }
   .contenProyect {
-    margin-bottom: -2.5rem;
-  }
-  .conten {
-    justify-content: space-evenly;
+    margin-bottom: 1.5rem;
   }
 }
 @media (min-width: 1100px) {
   .welcom_section {
-    margin-top: 2rem;
     width: 59%;
     max-width: 35rem;
   }
@@ -168,14 +141,9 @@
     margin-bottom: 4rem;
     line-height: 0;
   }
-  .conten {
-    display: flex;
-    justify-content: center;
-  }
   .contenProyect {
     width: 75%;
     height: 60%;
-    margin-bottom: 1.5rem;
   }
   .contenContac {
     width: 80%;
@@ -196,36 +164,5 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-  }
-  .social {
-    width: 120px;
-    margin: -22px;
-  }
-
-  .linkedin,
-  .instagram,
-  .github,
-  .twitter {
-    width: 75px;
-    height: 77px;
-    display: flex;
-    position: relative;
-    border-radius: 17px;
-    transition: background-color 1s;
-  }
-  .github {
-    border-radius: 40px;
-  }
-  .linkedin:hover {
-    background-color: #003688;
-  }
-  .github:hover {
-    background-color: #000000;
-  }
-  .twitter:hover {
-    background-color: #20adff;
-  }
-  .instagram:hover {
-    background-color: #e1306c;
   }
 }
